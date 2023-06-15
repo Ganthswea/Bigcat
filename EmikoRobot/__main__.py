@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+✪ I'm an bigcat-theme management bot [✨](https://telegra.ph/file/54087d783b5611ca776aa.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -361,7 +361,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text=f"๏ I'm *{dispatcher.bot.first_name}*, a powerful group management bot built to help you manage your group easily."
+            text=f"๏ I'm *{dispatcher.bot.first_name}*, a powerful group management bot and music bot 🎶 built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -375,18 +375,18 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="emiko_admin"),
-                    InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
+                    InlineKeyboardButton(text="𝐀ᴅᴍɪɴ𝚂", callback_data="emiko_admin"),
+                    InlineKeyboardButton(text="𝐍ᴏᴛᴇ𝚂", callback_data="emiko_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="emiko_support"),
+                    InlineKeyboardButton(text="𝐆ʀᴏᴜᴘ𝚂&𝐁ᴏᴛ𝚂", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
+                    InlineKeyboardButton(text="𝐒ᴏᴜʀᴄᴇ𝐂ᴏᴅᴇ", url="https://telegra.ph/file/2fbdd0f72a7791d23b83a.jpg"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back"),
+                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="source_back"),
                  ]
                 ]
             ),
@@ -405,7 +405,7 @@ def emiko_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="emiko_")]]
+                [[InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_")]]
             ),
         )
 
@@ -417,7 +417,7 @@ def emiko_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="emiko_")]]
+                [[InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_")]]
             ),
         )
     elif query.data == "emiko_support":
@@ -428,11 +428,11 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url="https://t.me/remo_support"),
+                    InlineKeyboardButton(text="𝐔ᴘᴅᴀᴛᴇ𝚂", url="https://t.me/Team_Remo"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_"),
                  
                  ]
                 ]
@@ -448,27 +448,27 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="𝐎ᴡɴᴇʀ", url="https://t.me/rowdybio01"),
+                    InlineKeyboardButton(text="𝐓ᴍᴄ𝐆ʀᴏᴜᴘ", url="https://t.me/TAMILCHATS_MAKKAL"),
                  ],
                  [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
+                    InlineKeyboardButton(text="𝐓ᴍᴄ2", url="https://t.me/cybertorn_tmc"),
+                    InlineKeyboardButton(text="𝐒ᴛᴀᴛᴜ𝚜", url="https://t.me/TamilStatusForGirl"),
                  ],
                  [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                    InlineKeyboardButton(text="𝐍ᴀᴛᴘᴇᴀ𝐓ʜᴜɴᴀɪ", url="https://t.me/Tamil_natpea"),
+                    InlineKeyboardButton(text="ᵗᶬ 𝗗 ʟᴏɢ", url="https://t.me/Decepticonsfed_log"),
                  ],
                  [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                    InlineKeyboardButton(text="ᵗᶬ🔺𝗗🔻𝐅ᴇᴅ", url="https://t.me/Decepticons_adminsfed"),
+                    InlineKeyboardButton(text="𝐋ᴀʟʟᴜ𝐁ᴏᴛ", url="https://t.me/LalluMusicBot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="𝐑ᴀ𝚂ᴀᴛʜɪ𝐁ᴏᴛ", url="https://t.me/Bae_Music_Bot"),
+                    InlineKeyboardButton(text="𝐒ᴘᴇᴀʀᴋᴇʀ𝐁ᴏᴛ", url="https://t.me/speakerboxbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_"),
                  ]
                 ]
             ),
@@ -494,7 +494,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_")
+                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_")
                  ]
                 ]
             ),
@@ -565,7 +565,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
