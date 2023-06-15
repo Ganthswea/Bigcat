@@ -93,17 +93,17 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"),
+        InlineKeyboardButton(text=f"🔺𝐀ʙᴏᴜᴛ🔻 {dispatcher.bot.first_name}", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🔺𝐆ᴇᴛ𝐇ᴇʟᴘ🔻", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="🔺𝐓ʀʏ𝐈ɴʟɪɴᴇ🔻!​​", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="🔺 𝐀ᴅᴅ𝐌ᴇ𝐓ᴏ𝐘ᴏᴜʀ𝐆ʀᴏᴜᴘ 🔻", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -375,18 +375,18 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝐀ᴅᴍɪɴ𝚂", callback_data="emiko_admin"),
-                    InlineKeyboardButton(text="𝐍ᴏᴛᴇ𝚂", callback_data="emiko_notes"),
+                    InlineKeyboardButton(text="🔺𝐀ᴅᴍɪɴ𝚂🔻", callback_data="emiko_admin"),
+                    InlineKeyboardButton(text="🔺𝐍ᴏᴛᴇ𝚂🔻", callback_data="emiko_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="𝐆ʀᴏᴜᴘ𝚂&𝐁ᴏᴛ𝚂", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="🔺𝐒ᴜᴘᴘᴏʀᴛ🔻", callback_data="emiko_support"),
+                    InlineKeyboardButton(text="🔺𝐆ʀᴏᴜᴘ𝚂&𝐁ᴏᴛ𝚂🔻", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐒ᴏᴜʀᴄᴇ𝐂ᴏᴅᴇ", url="https://telegra.ph/file/2fbdd0f72a7791d23b83a.jpg"),
+                    InlineKeyboardButton(text="🔺𝐒ᴏᴜʀᴄᴇ𝐂ᴏᴅᴇ🔻", url="https://telegra.ph/file/2fbdd0f72a7791d23b83a.jpg"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="source_back"),
+                    InlineKeyboardButton(text="🔺𝐆ᴏ𝐁ᴀᴄᴋ🔻", callback_data="source_back"),
                  ]
                 ]
             ),
@@ -428,11 +428,11 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url="https://t.me/remo_support"),
-                    InlineKeyboardButton(text="𝐔ᴘᴅᴀᴛᴇ𝚂", url="https://t.me/Team_Remo"),
+                    InlineKeyboardButton(text="🔺𝐒ᴜᴘᴘᴏʀᴛ🔻", url="https://t.me/remo_support"),
+                    InlineKeyboardButton(text="🔺𝐔ᴘᴅᴀᴛᴇ𝚂🔻", url="https://t.me/Team_Remo"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_"),
+                    InlineKeyboardButton(text="🔺𝐆ᴏ𝐁ᴀᴄᴋ🔻", callback_data="emiko_"),
                  
                  ]
                 ]
@@ -448,27 +448,27 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝐎ᴡɴᴇʀ", url="https://t.me/rowdybio01"),
-                    InlineKeyboardButton(text="𝐓ᴍᴄ𝐆ʀᴏᴜᴘ", url="https://t.me/TAMILCHATS_MAKKAL"),
+                    InlineKeyboardButton(text="🔺𝐎ᴡɴᴇʀ🔻", url="https://t.me/rowdybio01"),
+                    InlineKeyboardButton(text="🔺𝐓ᴍᴄ𝐆ʀᴏᴜᴘ🔻", url="https://t.me/TAMILCHATS_MAKKAL"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐓ᴍᴄ2", url="https://t.me/cybertorn_tmc"),
-                    InlineKeyboardButton(text="𝐒ᴛᴀᴛᴜ𝚜", url="https://t.me/TamilStatusForGirl"),
+                    InlineKeyboardButton(text="🔺𝐓ᴍᴄ2🔻", url="https://t.me/cybertorn_tmc"),
+                    InlineKeyboardButton(text="🔺𝐒ᴛᴀᴛᴜ𝚜🔻", url="https://t.me/TamilStatusForGirl"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐍ᴀᴛᴘᴇᴀ𝐓ʜᴜɴᴀɪ", url="https://t.me/Tamil_natpea"),
-                    InlineKeyboardButton(text="ᵗᶬ 𝗗 ʟᴏɢ", url="https://t.me/Decepticonsfed_log"),
+                    InlineKeyboardButton(text="🔺𝐍ᴀᴛᴘᴇᴀ𝐓ʜᴜɴᴀɪ🔻", url="https://t.me/Tamil_natpea"),
+                    InlineKeyboardButton(text="🔺ᵗᶬ 𝗗 ʟᴏɢ🔻", url="https://t.me/Decepticonsfed_log"),
                  ],
                  [
                     InlineKeyboardButton(text="ᵗᶬ🔺𝗗🔻𝐅ᴇᴅ", url="https://t.me/Decepticons_adminsfed"),
-                    InlineKeyboardButton(text="𝐋ᴀʟʟᴜ𝐁ᴏᴛ", url="https://t.me/LalluMusicBot"),
+                    InlineKeyboardButton(text="🔺𝐋ᴀʟʟᴜ𝐁ᴏᴛ🔻", url="https://t.me/LalluMusicBot"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐑ᴀ𝚂ᴀᴛʜɪ𝐁ᴏᴛ", url="https://t.me/Bae_Music_Bot"),
-                    InlineKeyboardButton(text="𝐒ᴘᴇᴀʀᴋᴇʀ𝐁ᴏᴛ", url="https://t.me/speakerboxbot"),
+                    InlineKeyboardButton(text="🔺𝐑ᴀ𝚂ᴀᴛʜɪ𝐁ᴏᴛ🔻", url="https://t.me/Bae_Music_Bot"),
+                    InlineKeyboardButton(text="🔺𝐒ᴘᴇᴀʀᴋᴇʀ𝐁ᴏᴛ🔻", url="https://t.me/speakerboxbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_"),
+                    InlineKeyboardButton(text="🔺𝐆ᴏ𝐁ᴀᴄᴋ🔻", callback_data="emiko_"),
                  ]
                 ]
             ),
@@ -494,7 +494,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="emiko_")
+                    InlineKeyboardButton(text="🔺𝐆ᴏ𝐁ᴀᴄᴋ🔻", callback_data="emiko_")
                  ]
                 ]
             ),
@@ -565,7 +565,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝐆ᴏ𝐁ᴀᴄᴋ", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🔺𝐆ᴏ𝐁ᴀᴄᴋ🔻", callback_data="help_back")]]
             ),
         )
 
@@ -637,7 +637,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Go Back",
+                                text="🔺𝐆ᴏ𝐁ᴀᴄᴋ🔻",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
