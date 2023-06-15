@@ -60,8 +60,8 @@ async def mentionall(event):
         if not chat_id in spam_chats:
             break
         usrnum += 1
-        usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}), "
-        if usrnum == 5:
+        usrtxt += f"[{usr.username}](tg://user?id={usr.id}), "
+        if usrnum == 1:
             if mode == "text_on_cmd":
                 txt = f"{msg}\n{usrtxt}"
                 await client.send_message(chat_id, txt)
