@@ -30,7 +30,7 @@ MEMEK = "https://telegra.ph/file/11b5922a33de9968cedfe.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm Emiko Robot** 
+        caption=f"""✨ **Hey I'm bigcat Robot** 
 
 **Owner repo : [sena-ex](https://t.me/excrybaby)**
 **Python Version :** `{y()}`
@@ -44,9 +44,9 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/kennedy-ex/emikorobot"), 
+                        "nothing", url="https://github.com/ken"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/emikosupport")
+                        "help", url="https://t.me/")
                 ]
             ]
         )
