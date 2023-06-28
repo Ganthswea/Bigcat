@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Emiko Robot](https://t.me/EmiexRobot)",
+            caption="music bot [𝐋ᴀʟʟᴜ](https://t.me/LalluMusicBot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -208,7 +208,7 @@ async def logo_(event):
             os.remove(font_)
 
 
-__mod_name__ = "Logomaker"
+__mod_name__ = "🔺𝐋ᴏɢᴏᴍᴀᴋᴇʀ🔻"
 
 __help__ = """ This is help menu for logomaker
 
